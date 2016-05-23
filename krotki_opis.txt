@@ -1,0 +1,19 @@
+﻿Ograniczyłem się tylko do jednego typu okien takich jakie zostały
+podanych w zadaniu, natomiast ich ilość nie ma znaczenia, 
+tj zależy tylko od implementacji repozytorium, a dokładniej ilości 
+pól typu Field w liście.
+
+Ilość i długość nie wpływa na wyświetlanie, można przewijać wyniki.
+Preferowany rozmiar okna został wpisany na sztywno 500x300.
+Program działa poprawnie przy zmianie wielkości okna.
+
+W WizardFrame dodane są panele: TitlePanel, CardPanel, ButtonPanel,
+podczas przechodzenia po kolejnych polach odświeżany jest CardPanel.
+Po naciśnięciu przycisku Finish, następuje usunięcie CardPanel oraz
+dodanie w jego miejscu FinishPanel. Nazwa przycisku "Finish" zostaje
+zastąpiona przez "Exit" oraz po naciśnięciu zostanie zamknięty program.
+
+Przycisk zmieniają swój status w zależności od etapu w jakim się znajdujemy.
+
+Zamieszczam cały projekt, wraz z jego strukturą napisany w Intellij IDEA 15.0
+oraz javie 8 i swingu. Dodałem też spakowany jar z programem.
